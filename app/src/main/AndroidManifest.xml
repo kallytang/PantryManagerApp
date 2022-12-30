@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.kallytang.chomp">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:versionCode = "1"
+        android:versionName = "1.0.0"
+        android:name="dev.kallytang.chomp.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="dev.kallytang.chomp.ManageHouseholdActivity" />
+        <activity android:name="dev.kallytang.chomp.ProfileActivity" />
+        <activity android:name="dev.kallytang.chomp.EditItemActivity"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name="dev.kallytang.chomp.CameraActivity"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity
+            android:name="dev.kallytang.chomp.AddFoodItemActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name="dev.kallytang.chomp.AccountSetUpActivity" />
+        <activity android:name="dev.kallytang.chomp.CreateAccountActivity" />
+        <activity android:name="dev.kallytang.chomp.MainActivity" />
+        <activity android:name="dev.kallytang.chomp.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

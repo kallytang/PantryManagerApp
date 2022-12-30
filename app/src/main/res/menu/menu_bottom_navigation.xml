@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_pantry_fragment"
+        android:icon="?android:attr/textSelectHandleRight"
+        android:title="@string/pantry"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/my_shopping_list_fragment"
+        android:icon="?android:attr/textSelectHandle"
+        android:title="@string/shopping_list"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/my_recipes_fragment"
+        android:icon="?android:attr/textSelectHandleLeft"
+        android:title="@string/item"
+        app:showAsAction="always" />
+</menu>
