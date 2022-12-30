@@ -17,3 +17,7 @@ Collaborating with a designer, Monica Cunich to create application.
 
 ## Technology Used 
 - Glide, Firestore/Firebase, CameraX, Firestore Cloud function, ViewBinding
+
+## Project Gifs: 
+<img src='https://github.com/kallytang/PantryManagerApp/blob/main/general_gif.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
+<img src='https://github.com/kallytang/PantryManagerApp/blob/main/updateItem.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
