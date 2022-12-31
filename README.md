@@ -16,7 +16,7 @@ Collaborating with a designer, Monica Cunich to create application.
 - allows user to sign up with google sign-in 
 
 ## Technology Used 
-- Glide, Firestore/Firebase, CameraX, Firestore Cloud function, ViewBinding
+- Glide, Firebase, CameraX, ViewBinding
 
 ## Project Gifs: 
 ### Create a new food item 
