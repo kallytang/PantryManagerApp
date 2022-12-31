@@ -12,7 +12,7 @@ Collaborating with a designer, Monica Cunich to create application.
 - allows user to create an item to list, and filter items by storage location
 - allows user to upload an image from camera gallery or take photo of item
 - allows user to delete item on list 
-- allows uer to update item, and edit the name, quantity, expiration date, storage location and notes of item
+- allows user to update item, and edit the name, quantity, expiration date, storage location and notes of item
 - allows user to sign up with google sign-in 
 
 ## Technology Used 
