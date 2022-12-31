@@ -18,7 +18,7 @@ Collaborating with a designer, Monica Cunich to create application.
 ## Technology Used 
 - Glide, Firebase, CameraX, ViewBinding
 
-## Project Gifs: 
+## Project Gifs
 ### Create a new food item 
 <img src='https://github.com/kallytang/PantryManagerApp/blob/main/general_gif.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
 
